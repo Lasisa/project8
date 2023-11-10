@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 1440px;
+    height: 65px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 168px;
+    height: 42px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.button1 {
+    width: 91px;
+    height: 35px;
+    border-radius: 100px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background-color: #FF9C00;
+    border: none;
+}
+.button2 {
+ color: #FF9C00;
+ width: 91px;
+ height: 35px;
+ border-radius: 100px;
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 17px;
+ background-color: transparent;
+ text-align: center;
+ border: 2px solid #FF9C00;
+}
+
+main {
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.haupt-main {
+    background-image: url(./Untitled-1\ 1.svg);
+    width: 1108px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.text {
+    width: 554px;
+    height: 450px;
+
+}
+.h1-class {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #000000;
+    padding: 82px;
+
+}
+
+span {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #FF9C00;
+}
+
+.input-container {
+    width: 345px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    
+
+}
+
+#inp-in-ct {
+    width: 200px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #bbbbbb;
+    border-radius: 100px;
+    color: white;
+}
+
+#btn-in-ct {
+    width: 87px;
+    height: 35px;
+    background-color: #FF9C00;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+.shop {
+    width: 1440px;
+height: 65px;
+margin: 0 auto;
+}
+.shop-p {
+    width: 544px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.tech1 {
+    width: 1440px;
+    height: 300px;
+    margin: 0 auto;
+}
+.tech2 {
+    display: flex;
+    justify-content: space-between;
+}
+.post-img {
+    width: 168px;
+    height: 232px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    
+}
+.post {
+    background-image: url(./furniture\ 1.svg);
+    width: 168px;
+    height: 232px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+
+}
+.post-p {
+    width: 38px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.deal-p {
+    width: 544px;
+height: 29px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+.deal {
+    width: 1440px;
+    height: 65px;
+    margin: 0 auto;
+}
+/*
+js
+*/
+/* Стили для product-card */
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+}
+
+.product-button {
+    width: 116px;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px;
+    background-color: #FF9C00;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+}
+.product-image {
+    width: 265px;
+height: 265px;
+}
+.product-title {
+    width: 262px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.product-price {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    width: 262px;
+    height: 19px;
+}
+
+.product-description {
+    width: 262px;
+height: 68px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+
+}
+
